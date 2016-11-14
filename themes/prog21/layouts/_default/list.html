@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+<div id="c1">
+    <div class="ab">
+        {{ range .Data.Pages.GroupByDate "2006" }}
+        <h1>{{ .Key }}</h1>
+        <ul>
+            {{ range .Pages }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+</div>
+
+{{ partial "sidebar.html" . }}
+{{ partial "footer.html" . }}

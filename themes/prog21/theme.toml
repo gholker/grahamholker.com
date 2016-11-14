@@ -1,0 +1,12 @@
+name = "Prog21"
+license = "MIT"
+licenselink = "https://github.com/dadgumjames/prog21/blob/master/LICENSE.md"
+description = ""
+homepage = "https://github.com/dadgumjames/prog21/"
+tags = ["blog"]
+features = ["blog"]
+min_version = 0.17
+
+[author]
+  name = "dadgumjames"
+  homepage = "http://prog21.dadgum.com/"

@@ -1,0 +1,18 @@
+baseurl = "http://grahamholker.com/"
+title = "Graham Holker"
+languageCode = "en-us"
+
+publishdir = "docs"
+theme = "prog21"
+googleAnalytics = "UA-47944209-1"
+
+defaultLayout = "post"
+enableRobotsTXT = true
+
+# Enable Emoji emoticons support for page content.
+# See www.emoji-cheat-sheet.com
+enableEmoji = true
+
+[params]
+  author = "Graham Holker"
+  description = "I'm Graham, a full-stack developer at Helpful.com."

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graham Holker</title>
+    <link>http://grahamholker.com/index.xml</link>
+    <description>Recent content on Graham Holker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2016 21:10:09 -0500</lastBuildDate>
+    <atom:link href="http://grahamholker.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Home</title>
+      <link>http://grahamholker.com/home/</link>
+      <pubDate>Sun, 13 Nov 2016 21:10:09 -0500</pubDate>
+      
+      <guid>http://grahamholker.com/home/</guid>
+      <description>&lt;p&gt;My name is Graham and I&amp;rsquo;m a full-stack developer at Helpful.com in Toronto, Canada.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve shared the &lt;a href=&#34;https://github.com/gholker/MastersThesis&#34;&gt;code for my thesis work&lt;/a&gt; on GitHub. Related papers can be found in my list of &lt;a href=&#34;./publications/&#34;&gt;publications&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also on GitHub, a &lt;a href=&#34;https://github.com/gholker/InductorKBS&#34;&gt;Knowledge-Based System for designing electrical inductors&lt;/a&gt; built for a course during my Master&amp;rsquo;s.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://grahamholker.com/publications/</link>
+      <pubDate>Mon, 10 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://grahamholker.com/publications/</guid>
+      <description>
+
+&lt;h4 id=&#34;bubble-cam-a-commercial-grade-spherical-camera-http-www-isprs2012-org-abstract-1614-asp&#34;&gt;&lt;a href=&#34;http://www.isprs2012.org/abstract/1614.asp&#34;&gt;Bubble Cam: A Commercial-Grade Spherical Camera&lt;/a&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This publication is a result of image stitching work done in Collaboration with Ryerson, OCE, and a private company.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;study-of-estimation-of-distribution-algorithms-applied-to-neuroevolution-http-digitalcommons-ryerson-ca-dissertations-1058&#34;&gt;&lt;a href=&#34;http://digitalcommons.ryerson.ca/dissertations/1058/&#34;&gt;Study of Estimation of Distribution Algorithms Applied to Neuroevolution&lt;/a&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This thesis proposed a methodology for the automatic design of neural networks via Estimation of Distribution Algorithms (EDA). The method evolves both topology and weights. To do so, topology is represented with a fixed-length, indirect encoding; weights are represented as a bitwise encoding. The topology and weights are searched via an incremental learning algorithm and a Guided Mutation operator. To explore suitable EDA ensembles, the study presented here interchangeably combined two representations for topology, two for weights, and two learning algorithms. Tests used in the analysis include: XOR, 6-bit Multiplexer, Pole-Balancing, and the Retina Problem. The results demonstrate that: (1) the Guided Mutation operator accelerated optimization on problems with a fixed fitness function; (2) the EDA approach introduced here is competitive with similar GP methods and is a viable method for Neuroevolution; (3) our methodology scales well to harder problems and automatically discovers modularity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;toward-an-estimation-of-distribution-algorithm-for-the-evolution-of-artificial-neural-networks-http-dl-acm-org-citation-cfm-id-1822330&#34;&gt;&lt;a href=&#34;http://dl.acm.org/citation.cfm?id=1822330&#34;&gt;Toward an estimation of distribution algorithm for the evolution of artificial neural networks&lt;/a&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;C3S2E &amp;lsquo;10 Proceedings of the Third C* Conference on Computer Science and Software Engineering&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

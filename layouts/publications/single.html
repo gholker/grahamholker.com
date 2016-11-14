@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+<div id="c1">
+    <h1>{{ .Title }}</h1>
+    <div>
+        {{ .Content }}
+    </div>
+    <!--<a href="{{ .Permalink }}" id="perm">permalink</a> <time>{{ .Date.Format "January 2, 2006" }}</time>-->
+</div>
+{{ partial "sidebar.html" . }}
+{{ partial "footer.html" . }}

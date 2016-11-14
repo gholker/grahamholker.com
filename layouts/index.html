@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+<div id="c1">
+    {{ range where .Data.Pages "Title" "Home" }}
+        {{ .Content }}
+    {{ end }}
+</div>
+<!--{{ partial "sidebar.html" . }}-->
+{{ partial "footer.html" . }}

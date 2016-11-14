@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="{{ .Site.LanguageCode | default " en-us" }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Graham Holker</title>
-    
-    <meta name="description" content="I&#39;m Graham, a full-stack developer at Helpful.com.">
-    
-    
-    <meta name="author" content="Graham Holker">
-    
-    <link href="http://grahamholker.com/index.xml" rel="feed" type="application/rss+xml" title="Graham Holker">
-    <meta name="generator" content="Hugo 0.17" />
+    <title>{{ .Title }}</title>
+    {{ with .Site.Params.description }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+    {{ with .Site.Params.author }}
+    <meta name="author" content="{{ . }}">
+    {{ end }}
+    {{ if .RSSlink -}}
+    <link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
+    {{- end }}
+    {{ .Hugo.Generator }}
     <style>
         a, #p21 {
             text-decoration: none
@@ -133,38 +135,10 @@
 <body>
 <div id="top">
     <div class="box">
-        <a id="p21" href="http://grahamholker.com/">Graham Holker</a>
+        <a id="p21" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
         <p/>
-        
+        <!--<p>It's not about technology for its own sake. It's about being able to implement your ideas.</p>-->
     </div>
 </div>
 <p style="height: 10px;"/>
 <div class="box">
-<div id="c1">
-    
-        <p>My name is Graham and I&rsquo;m a full-stack developer at Helpful.com in Toronto, Canada.</p>
-
-<p>I&rsquo;ve shared the <a href="https://github.com/gholker/MastersThesis">code for my thesis work</a> on GitHub. Related papers can be found in my list of <a href="./publications/">publications</a>.</p>
-
-<p>Also on GitHub, a <a href="https://github.com/gholker/InductorKBS">Knowledge-Based System for designing electrical inductors</a> built for a course during my Master&rsquo;s.</p>
-
-    
-</div>
-
-
-    
-
-</div>
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-47944209-1', 'auto');
-ga('send', 'pageview');
-</script>
-
-</body>
-</html>
