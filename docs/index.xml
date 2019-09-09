@@ -17,7 +17,7 @@
       <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>http://grahamholker.com/work/2018-ross-intel/</guid>
-      <description>Things I worked on:
+      <description>Things I have worked on:
  Rebuilt data pipeline for improved data integrity Improved search results using a citation graph Creative use of public domain data to generate data set Optimized search relevance for statutes and regulations  </description>
     </item>
     
@@ -28,6 +28,7 @@
       
       <guid>http://grahamholker.com/home/</guid>
       <description>My name is Graham and I&amp;rsquo;m a Software Engineer building NLP data pipelines at ROSS Intelligence in Toronto, Canada.
+More details of my work.
 I&amp;rsquo;ve shared the code for my thesis work on GitHub. Related papers can be found in my list of publications.
 Also on GitHub, a Knowledge-Based System for designing electrical inductors built for a course during my Master&amp;rsquo;s.</description>
     </item>
@@ -40,7 +41,8 @@ Also on GitHub, a Knowledge-Based System for designing electrical inductors bui
       <guid>http://grahamholker.com/work/2016-helpful/</guid>
       <description>I joined as the 3rd engineer and touched most of the stack.
 Helpful started as a company directory app using AI and ML to help find people and later became a video messaging app.
-Things I worked on: - Built solution for real-time speech recognition end-to-end from mobile clients to backend services to speech-to-text APIs - Ideated and built a video editor based on the transcribed audio - Designed search indices and optimized relevance (ElasticSearch) - Implemented a paper to extract professional skills from text that included use of PageRank algorithm - Developed a “person vector” model based on word vectors of Slack data that could find similar users using nearest neighbours search - Developed Android app for recording and watching videos</description>
+Things I worked on:
+ Built solution for real-time speech recognition end-to-end from mobile clients to backend services to speech-to-text APIs Ideated and built a video editor based on the transcribed audio Designed search indices and optimized relevance (ElasticSearch) Implemented a paper to extract professional skills from text that included use of PageRank algorithm Developed a “person vector” model based on word vectors of Slack data that could find similar users using nearest neighbours search Developed Android app for recording and watching videos  Helpful was acquired by Shopify.</description>
     </item>
     
     <item>
@@ -89,7 +91,7 @@ Things I worked on: - Built solution for real-time speech recognition end-to-end
       <pubDate>Wed, 01 Dec 2010 00:00:00 +0000</pubDate>
       
       <guid>http://grahamholker.com/work/2010-bubl/</guid>
-      <description>Developed panorama image stitching algorithm to match camera specifications Implemented stitching in C and viewer with OpenGL  The Kickstarter pitch is still available although the companies site is now gone.</description>
+      <description>Developed panorama image stitching algorithm to match camera specifications Implemented stitching in C and viewer with OpenGL  The Kickstarter pitch is still available although the company&amp;rsquo;s site is now gone (as of 2019-09-08).</description>
     </item>
     
     <item>
@@ -98,9 +100,7 @@ Things I worked on: - Built solution for real-time speech recognition end-to-end
       <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
       
       <guid>http://grahamholker.com/work/2009-masters/</guid>
-      <description>Neuroevolution using a probabilistic model of neural networks Thesis Source (C/C++)
-Teaching Assistant for several courses.
-Course project: Knowledge Based System for the design of inductors Source</description>
+      <description> Thesis: Neuroevolution using a probabilistic model of neural networks  Thesis Source (C/C++)  Course project: Knowledge Based System for the design of inductors  Source  </description>
     </item>
     
     <item>
