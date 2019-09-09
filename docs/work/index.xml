@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Graham Holker</title>
-    <link>http://grahamholker.com/</link>
-    <description>Recent content on Graham Holker</description>
+    <title>Works on Graham Holker</title>
+    <link>http://grahamholker.com/work/</link>
+    <description>Recent content in Works on Graham Holker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://grahamholker.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://grahamholker.com/work/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>http://grahamholker.com/work/2018-ross-intel/</guid>
       <description>Things I worked on:
  Rebuilt data pipeline for improved data integrity Improved search results using a citation graph Creative use of public domain data to generate data set Optimized search relevance for statutes and regulations  </description>
-    </item>
-    
-    <item>
-      <title>Home</title>
-      <link>http://grahamholker.com/home/</link>
-      <pubDate>Sun, 13 Nov 2016 21:10:09 -0500</pubDate>
-      
-      <guid>http://grahamholker.com/home/</guid>
-      <description>My name is Graham and I&amp;rsquo;m a Software Engineer building NLP data pipelines at ROSS Intelligence in Toronto, Canada.
-I&amp;rsquo;ve shared the code for my thesis work on GitHub. Related papers can be found in my list of publications.
-Also on GitHub, a Knowledge-Based System for designing electrical inductors built for a course during my Master&amp;rsquo;s.</description>
     </item>
     
     <item>
@@ -51,16 +40,6 @@ Things I worked on: - Built solution for real-time speech recognition end-to-end
       <guid>http://grahamholker.com/work/2015-android-specialist/</guid>
       <description>Clients included:
  Zynga: existing game with 10M+ installs Virgin Mobile Canada  </description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>http://grahamholker.com/publications/</link>
-      <pubDate>Mon, 10 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://grahamholker.com/publications/</guid>
-      <description>Bubble Cam: A Commercial-Grade Spherical Camera  This publication is a result of image stitching work done in Collaboration with Ryerson, OCE, and a private company.
- Study of Estimation of Distribution Algorithms Applied to Neuroevolution  This thesis proposed a methodology for the automatic design of neural networks via Estimation of Distribution Algorithms (EDA). The method evolves both topology and weights. To do so, topology is represented with a fixed-length, indirect encoding; weights are represented as a bitwise encoding.</description>
     </item>
     
     <item>

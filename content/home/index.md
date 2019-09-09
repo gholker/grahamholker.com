@@ -5,6 +5,8 @@ title = "Home"
 +++
 
 My name is Graham and I'm a Software Engineer building NLP data pipelines at [ROSS Intelligence](https://rossintelligence.com/) in Toronto, Canada.
+
+More details of my [work](work).
     
 I've shared the [code for my thesis work](https://github.com/gholker/MastersThesis) on GitHub. Related papers can be found in my list of [publications](./publications/).
 

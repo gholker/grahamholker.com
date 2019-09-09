@@ -4,8 +4,17 @@
   
   <url>
     <loc>http://grahamholker.com/</loc>
-    <lastmod>2016-11-13T21:10:09-05:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://grahamholker.com/work/2018-ross-intel/</loc>
+    <lastmod>2018-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://grahamholker.com/work/</loc>
+    <lastmod>2018-03-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -14,18 +23,56 @@
   </url>
   
   <url>
+    <loc>http://grahamholker.com/work/2016-helpful/</loc>
+    <lastmod>2016-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://grahamholker.com/work/2015-android-specialist/</loc>
+    <lastmod>2015-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://grahamholker.com/publications/</loc>
     <lastmod>2014-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>http://grahamholker.com/work/2013-pivotal/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://grahamholker.com/work/2011-xtreme-labs/</loc>
+    <lastmod>2011-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://grahamholker.com/work/2010-bubl/</loc>
+    <lastmod>2010-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://grahamholker.com/work/2009-masters/</loc>
+    <lastmod>2009-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://grahamholker.com/work/2009-cyence/</loc>
+    <lastmod>2009-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://grahamholker.com/work/2007-ibm/</loc>
+    <lastmod>2007-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://grahamholker.com/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://grahamholker.com/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
