@@ -1,13 +1,13 @@
 +++
 date = "2015-04-02"
-title = "Android Specialist Freelancer"
+title = "Android Specialist @ Freelance"
 
 +++
 
-Clients included:
+Projects included:
 
- - Zynga: existing game with 10M+ installs
- - Virgin Mobile Canada
+ - Android game with 10M+ installs
+ - New app for Canadian telecom
 
  
 
