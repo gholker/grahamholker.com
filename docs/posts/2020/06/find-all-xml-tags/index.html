@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Posts</title>
+    <title>Find All XML Tags from the CLI</title>
     
     
     <meta name="author" content="Graham Holker">
     
-    <link rel="alternate" type="application/rss+xml" href="http://grahamholker.com/posts/index.xml" title="Graham Holker" />
     <style>
         a,
         #p21 {
@@ -143,33 +142,43 @@
     <p style="height: 10px;" />
     <div class="box">
 <div id="c1">
-    <div class="ab">
+    <h1>Find All XML Tags from the CLI</h1>
+    <div>
         
-        <h1>2020</h1>
-        <ul>
-            
-            <li>
-                <a href="/posts/2020/06/find-all-xml-tags/">Find All XML Tags from the CLI</a>
-            </li>
-            
-        </ul>
-        
-        <h1>2019</h1>
-        <ul>
-            
-            <li>
-                <a href="/posts/2019/quick-and-dirty-automated-assistant/">Quick &amp; Dirty Automated Assistant</a>
-            </li>
-            
-            <li>
-                <a href="/posts/2019/document-vectors-with-spacy/">Document Vectors with spaCy</a>
-            </li>
-            
-        </ul>
-        
-    </div>
-</div>
 
+<p>These bash one liners served me well when exploring raw HTML and XML. Once building an ingestion / cleaning pipeline I would output more detailed statistics about tag usage.</p>
+
+<h3 id="html">HTML</h3>
+
+<p>For HTML, you may want to use a looser regex like this one. The regex is searching for anything starting with <code>&lt;</code>. It allows the tag to not to be closed.</p>
+
+<pre><code>ag &quot;&lt;/?([^&gt; ]*)?&gt;?&quot; path/to/html/ -io \
+    | sed -n -e 's/^.*:&lt;?\/?//p' \
+    | sort --unique
+</code></pre>
+
+<h3 id="xml">XML</h3>
+
+<p>For XML, finding the end tags (e.g. <code>&lt;/EndTag&gt;</code>) may be sufficient. I didn&rsquo;t consider start tags they can have attributes (e.g. <code>&lt;StartTag Attribute=X&gt;</code>). This assumes the XML is already decently formatted.</p>
+
+<pre><code>ag  &quot;&lt;/.*?&gt;&quot; path/to/xml/ -oi \
+    | sed -n -e 's/^.*://p' \
+    | sort --unique
+</code></pre>
+
+<p>Notes:</p>
+
+<ul>
+<li><p><code>ag</code> is <a href="https://github.com/ggreer/the_silver_searcher">the silver searcher</a></p></li>
+
+<li><p>sed is removing the line number from the result. (e.g. ag returns <code>123:&lt;br /&gt;</code>)</p></li>
+
+<li><p><code>sort --unique</code> sorts the lines and with the <code>--unique</code> option discards the duplicates</p></li>
+</ul>
+
+    </div>
+    
+</div>
 <div id="c2">
     <div class="s">
         <a href="/">About</a><br />
